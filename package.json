@@ -25,6 +25,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
     "init-msw": "msw init public/"
   },
   "devDependencies": {
@@ -33,6 +34,11 @@
     "@storybook/addon-docs": "^9.0.16",
     "@storybook/addon-links": "^9.0.16",
     "@storybook/react-vite": "^9.0.16",
+    "@storybook/test": "^8.6.14",
+    "@storybook/test-runner": "^0.23.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
