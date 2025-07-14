@@ -1,0 +1,28 @@
+{
+  "name": "Taskbox Storybook Development",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "nodeGitHubRepo": "nodejs/node",
+      "version": "20"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "postCreateCommand": "yarn install",
+  "postStartCommand": "yarn storybook",
+  "forwardPorts": [6006],
+  "portsAttributes": {
+    "6006": {
+      "label": "Storybook",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
