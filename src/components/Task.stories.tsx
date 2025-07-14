@@ -61,3 +61,13 @@ export const Aaaa: Story = {
     }
 };
 
+export const Bbbbb: Story = {
+    args: {
+        task: {
+            "id": "2",
+            "title": "bbbbbb",
+            "state": "TASK_PINNED"
+        }
+    }
+};
+
