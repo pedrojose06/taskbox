@@ -51,12 +51,13 @@ export const Archived: Story = {
     },
 };
 
-export const Loading: Story = {
+export const Aaaa: Story = {
     args: {
         task: {
-            id: "4",
-            title: "Loading Task",
-            state: "TASK_INBOX",
-        },
-    },
+            "id": "1",
+            "title": "My Taskaaaa",
+            "state": "TASK_INBOX"
+        }
+    }
 };
+
